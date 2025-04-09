@@ -1,0 +1,23 @@
+{
+  "name": "reciperealm",
+  "version": "1.0.0",
+  "description": "a user-friendly platform where users can search for recipes, customize their collections, and quickly access detailed instructions and nutritional data, simplifying meal preparation.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertggovias/reciperealm.git"
+  },
+  "author": "Robert Govia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertggovias/reciperealm/issues"
+  },
+  "homepage": "https://github.com/robertggovias/reciperealm#readme",
+  "dependencies": {
+    "parcel": "^2.14.4",
+    "prettier": "^3.5.3"
+  }
+}
