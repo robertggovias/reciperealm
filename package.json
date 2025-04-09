@@ -1,23 +1,18 @@
 {
-  "name": "reciperealm",
+  "name": "recipe_realm",
   "version": "1.0.0",
-  "description": "a user-friendly platform where users can search for recipes, customize their collections, and quickly access detailed instructions and nutritional data, simplifying meal preparation.",
-  "main": "index.html",
+  "description": "A user-friendly platform where users can search for recipes, and quickly access detailed instructions, and nutritional data, simplifying meal preparation.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    
+    "build": "parcel build index.html --no-scope-hoist --no-content-hash"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/robertggovias/reciperealm.git"
-  },
-  "author": "Robert Govia",
+  "author": "Robert Gerard Govia Suarez <gov19001@byui.edu>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/robertggovias/reciperealm/issues"
-  },
-  "homepage": "https://github.com/robertggovias/reciperealm#readme",
   "dependencies": {
-    "parcel": "^2.14.4",
-    "prettier": "^3.5.3"
+    "parcel": "^2.8.3"
+  },
+  "devDependencies": {
+    "svgo": "^3.3.2"
   }
 }

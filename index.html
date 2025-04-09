@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div class="logo">
+        <img src="src/img/logo_recipe_realm.svg" alt="logo recipe realm">
+    </div>
+    <div class="search-group screen">
+
+        <div class="search-div" id="search_query">
+            <h1 class="search_title">Explore tasty ideas</h1>
+            <form id="pepe1" class="search_bar">
+                <input type="text" id="search_bar" data-id="search_bar" placeholder="What to make for dinner tonight??" name="search_bar">
+                <button type="button" id="search-button" onclick="searchRecipes()">🔍</button>
+            </form>
+            
+        </div>
+        <div class="search-div" id="result">
+            <div class="search_result_list" id="search_result_list">              
+            </div>        
+        </div>        
+
+    </div>    
+    <div class="random_meal_container">
+    <div class="random_meal">
+        <img class="random_meal_text" src="src/img/risk it for the biscuit.svg">
+        <img class="random_meal_photo" data-id="search-result-photo"
+                        src="src/img/Foto-random.svg"
+                        alt="foto_random">
+    </div>
+    </div>    
+    <div id="recipe-details"></div>
+    <div id="recipe-content"></div>
+    
+    <a href="src/pages/recipe.html">testing recipe</a>
+    <a href="src/pages/test.html">testing recipe II copy</a>    
+    <script src="./main.js"></script>
